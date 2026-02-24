@@ -1,0 +1,52 @@
+{
+    "name": "renzojohnson/discord-api",
+    "description": "Lightweight PHP wrapper for Discord REST API. Send messages, embeds, and files via webhooks and Bot tokens. Zero dependencies.",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://renzojohnson.com",
+    "keywords": [
+        "discord",
+        "discord-api",
+        "discord-webhook",
+        "discord-bot",
+        "messaging",
+        "webhook",
+        "notifications",
+        "chat",
+        "php"
+    ],
+    "authors": [
+        {
+            "name": "Renzo Johnson",
+            "homepage": "https://renzojohnson.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/renzojohnson/discord-api/issues",
+        "source": "https://github.com/renzojohnson/discord-api"
+    },
+    "require": {
+        "php": "^8.4",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "RenzoJohnson\\Discord\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RenzoJohnson\\Discord\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    }
+}
