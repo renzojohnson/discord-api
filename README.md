@@ -1,8 +1,14 @@
 # Discord API for PHP
 
+[![Latest Version](https://img.shields.io/packagist/v/renzojohnson/discord-api.svg)](https://packagist.org/packages/renzojohnson/discord-api)
+[![PHP Version](https://img.shields.io/packagist/php-v/renzojohnson/discord-api.svg)](https://packagist.org/packages/renzojohnson/discord-api)
+[![License](https://img.shields.io/packagist/l/renzojohnson/discord-api.svg)](https://github.com/renzojohnson/discord-api/blob/main/LICENSE)
+
 Lightweight PHP wrapper for [Discord REST API](https://discord.com/developers/docs/reference) v10. Zero dependencies.
 
 Send messages, rich embeds, and files via webhooks and Bot tokens. Ed25519 interaction signature verification.
+
+**Author:** [Renzo Johnson](https://renzojohnson.com)
 
 ## Requirements
 
@@ -184,6 +190,13 @@ composer install
 vendor/bin/phpunit
 ```
 
+## Links
+
+- [Packagist](https://packagist.org/packages/renzojohnson/discord-api)
+- [GitHub](https://github.com/renzojohnson/discord-api)
+- [Issues](https://github.com/renzojohnson/discord-api/issues)
+- [Author](https://renzojohnson.com)
+
 ## License
 
-MIT
+MIT License. Copyright (c) 2026 [Renzo Johnson](https://renzojohnson.com).
