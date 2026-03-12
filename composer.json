@@ -3,7 +3,7 @@
     "description": "Lightweight PHP wrapper for Discord REST API. Send messages, embeds, and files via webhooks and Bot tokens. Zero dependencies.",
     "type": "library",
     "license": "MIT",
-    "homepage": "https://renzojohnson.com",
+    "homepage": "https://renzojohnson.com/contributions/discord-api",
     "keywords": [
         "discord",
         "discord-api",
